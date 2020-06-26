@@ -23,7 +23,14 @@ ul {
 
 .high-score:hover {
 	background-color: #2ec4b6;
-	color: #ffffff;
+    color: #ffffff;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
 .game-btn {
@@ -43,6 +50,66 @@ ul {
 	color: #ffffff;
 }
 
+.score-board {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+    align-items: center;
+}
+
+.player-1-score{
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    border-radius: 1em;
+}
+
+.score-spacer{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.player-2-score{
+    border: 1.2px solid black;
+    width: 150px;
+    height: 50px;
+    border-radius: 1em;
+}
+
+.sensor{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;   
+}
+
+.p1-sensor{
+    background-color: #e0e0e0;
+    width: 50px;
+    height: 50px;
+    border-radius: 3em;
+    margin: 25px;
+}
+
+.spacer-sensor{
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 3em;
+    margin: 25px
+}
+
+.p2-sensor{
+    background-color: #e0e0e0;
+    width: 50px;
+    height: 50px;
+    border-radius: 3em;
+    margin: 25px
+}
+
 .game-zone {
 	display: flex;
 	flex-direction: row;
@@ -54,7 +121,28 @@ ul {
 .card-1-face {
 	width: 325px;
 	height: 600px;
-	margin: 10px;
+    margin: 10px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.card-1-face:hover {
+	width: 325px;
+	height: 600px;
+    margin: 10px;
+    border-radius: 1em;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
 .deal-btn {
@@ -66,16 +154,45 @@ ul {
 
 .deal-btn:hover {
 	background-color: #37ebd9;
-	color: #ffffff;
+	color: #000000;
 	margin: 0.9em;
     padding: 2em;
     border-radius: 1em;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
 }
 
 .card-2-face {
 	width: 325px;
 	height: 600px;
-	margin: 10px;
+    margin: 10px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.card-2-face:hover {
+	width: 325px;
+	height: 600px;
+    margin: 10px;
+    border-radius: 1em;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
 .card-title {
@@ -107,6 +224,6 @@ ul {
 	justify-content: space-around;
 	align-items: center;
 	font-weight: 100;
-    color: #d1d1d1;
+    color: #b9b9b9;
     font-size: small;
 }
