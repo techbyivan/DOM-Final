@@ -1,0 +1,112 @@
+/* color palate */
+/* #130c02 - black */
+/* #ff9f1c - dark orange */
+/* #ffbf69 - light orange */
+/* #ffffff - white */
+/* #cbf3f0 - light cyan */
+/* #2ec4b6 - tiffany blue */
+
+ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 200px;
+}
+
+.high-score {
+	color: #130c02;
+	margin: 0.9em;
+	padding: 0.9em;
+}
+
+.high-score:hover {
+	background-color: #2ec4b6;
+	color: #ffffff;
+}
+
+.game-btn {
+	background-color: #130c02;
+	color: #ffffff;
+	margin: 0.9em;
+	padding: 0.9em;
+}
+
+.username {
+	margin: 0.9em;
+	padding: 0.9em;
+}
+
+.username:hover {
+	background-color: #ff9f1c;
+	color: #ffffff;
+}
+
+.game-zone {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.card-1-face {
+	width: 325px;
+	height: 600px;
+	margin: 10px;
+}
+
+.deal-btn {
+	background-color: #2ec4b6;
+	color: #ffffff;
+	margin: 0.9em;
+	padding: 2em;
+}
+
+.deal-btn:hover {
+	background-color: #37ebd9;
+	color: #ffffff;
+	margin: 0.9em;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.card-2-face {
+	width: 325px;
+	height: 600px;
+	margin: 10px;
+}
+
+.card-title {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	color: #ffffff;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-image {
+	width: 150px;
+	height: 45px;
+	margin-top: 10px;
+}
+
+.copyright {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: 100;
+    color: #d1d1d1;
+    font-size: small;
+}

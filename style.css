@@ -1,3 +1,65 @@
-.card-btn {
-    background-color: ;
+/* color palate */
+/* #130c02 - black */
+/* #ff9f1c - dark orange */
+/* #ffbf69 - light orange */
+/* #ffffff - white */
+/* #cbf3f0 - light cyan */
+/* #2ec4b6 - tiffany blue */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flip-card-container {
+	width: 300px;
+	height: 400px;
+	border: 1px solid #ccc;
+	perspective: 1000px;
+}
+.flip-card {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+	transform-style: preserve-3d;
+}
+.flip-card-container:hover .flip-card {
+	transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+	position: absolute;
+	width: 300px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	backface-visibility: hidden;
+}
+
+.flip-card-front {
+	background-color: #333333;
+	color: #ffffff;
+}
+
+.flip-card-back {
+	background-color: #517fa4;
+	color: #fff;
+	transform: rotateY(180deg);
+}
+
+.flip-card-front img {
+	width: 100%;
+	height: 100%;
 }
