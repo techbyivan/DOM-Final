@@ -145,7 +145,7 @@ ul {
     0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
-.card-1-face:hover {
+/* .card-1-face:hover {
 	width: 325px;
 	height: 600px;
     margin: 10px;
@@ -157,7 +157,7 @@ ul {
     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12)
-}
+} */
 
 .deal-btn {
 	background-color: #37ebd9;
@@ -204,7 +204,7 @@ ul {
     0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
-.card-2-face:hover {
+/* .card-2-face:hover {
 	width: 325px;
 	height: 600px;
     margin: 10px;
@@ -216,7 +216,7 @@ ul {
     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12)
-}
+} */
 
 .card-title {
 	display: flex;
