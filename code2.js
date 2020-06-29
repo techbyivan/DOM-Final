@@ -22,17 +22,6 @@
 // }
 // console.log(dealCards())
 
-// FLIPPED CARD START
-
-// let card = document.querySelector('.card');
-// card.addEventListener( 'click', function() {
-    //   card.classList.toggle('is-flipped');
-    // });
-    
-// FLIPPED CARD END
-
-
-
 // var card = document.querySelector('.card');
 // card.addEventListener( 'click', function() {
 //   card.classList.toggle('is-flipped');
@@ -68,3 +57,4 @@
 /////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////
+

@@ -139,6 +139,7 @@ ul {
 	width: 325px;
 	height: 600px;
     margin: 10px;
+    transition: transform 1s;
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -161,19 +162,6 @@ ul {
     0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
-/* .card-1-face:hover {
-	width: 325px;
-	height: 600px;
-    margin: 10px;
-    border-radius: 1em;
-    box-shadow:
-    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-    0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12)
-} */
 
 .deal-btn {
 	background-color: #000000;
@@ -182,6 +170,7 @@ ul {
     padding: 2em;
     border-radius: 1em;
     border: none;
+    cursor: pointer;
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -198,6 +187,7 @@ ul {
 	margin: 0.9em;
     padding: 2em;
     border-radius: 1em;
+    cursor: pointer;
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -233,19 +223,7 @@ ul {
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12)
 }
-/* .card-2-face:hover {
-	width: 325px;
-	height: 600px;
-    margin: 10px;
-    border-radius: 1em;
-    box-shadow:
-    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-    0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12)
-} */
+
 
 .card-title {
 	display: flex;
