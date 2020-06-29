@@ -43,11 +43,14 @@ ul {
 
 .username {
 	margin: 0.9em;
-	padding: 0.9em;
+    padding: 0.9em;
+    border: none;
+    border-color: #ffffff;
 }
 
+
 .username:hover {
-	background-color: #ff9f1c;
+	background-color: #000000;
 	color: #ffffff;
 }
 
@@ -160,11 +163,12 @@ ul {
 } */
 
 .deal-btn {
-	background-color: #37ebd9;
+	background-color: #000000;
 	color: #ffffff;
 	margin: 0.9em;
     padding: 2em;
     border-radius: 1em;
+    border: none;
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -176,7 +180,7 @@ ul {
 }
 
 .deal-btn:hover {
-	background-color: #38d8c8;
+	background-color: #3ae7d6;
 	color: #ffffff;
 	margin: 0.9em;
     padding: 2em;
@@ -250,3 +254,7 @@ ul {
     color: #b9b9b9;
     font-size: small;
 }
+
+/* ////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////// */
