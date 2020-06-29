@@ -1,13 +1,13 @@
-// getUsername = () => {
-//     let txt;
-//     let player = prompt("Please enter your name:")
-//     if (player == null || player == "") {
-//         txt = "User cancelled the prompt."
-//     } else {
-//         txt = `Welcome ${player}!`
-//     }
-//     document.getElementById('username').innerHTML = txt
-// }
+getUsername = () => {
+    let txt;
+    let player = prompt("Please enter your name:")
+    if (player == null || player == "") {
+        txt = "User cancelled the prompt."
+    } else {
+        txt = `Welcome ${player}!`
+    }
+    document.getElementById('username').innerHTML = txt
+}
 
 // dealCards = () => {
 //     document.getElementById('player1Card').innerHTML = Math.floor(Math.random() * 11);
