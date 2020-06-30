@@ -214,11 +214,11 @@ ul {
 }
 
 .card-2-text{
-        /* position: absolute; */
-        /* top: 50%;
-        left: 50%; */
-        /* transform: translate(-50%, -50%); */
-        /* color: #00a708; */
+        position: absolute; */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #00a708;
         font-size: 150px;
         
 
