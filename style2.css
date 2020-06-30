@@ -71,9 +71,10 @@ ul {
 
 .score{
     text-align: center;
+    padding: 3px;
 }
 
-.score-spacer{
+.new-game{
     background-color: #ff9f1c;
     color: #ffffff;
     width: 100px;
@@ -81,7 +82,7 @@ ul {
     border: none;
 }
 
-.score-spacer:hover{
+.new-game:hover{
     background-color: #df981d;
     color: #ffffff;
     width: 100px;
@@ -104,7 +105,7 @@ ul {
 }
 
 .p1-sensor{
-    background-color: #e0e0e0;
+    background-color: #ffffff; /* #e0e0e0 */
     width: 50px;
     height: 50px;
     border-radius: 3em;
@@ -120,7 +121,7 @@ ul {
 }
 
 .p2-sensor{
-    background-color: #e0e0e0;
+    background-color: #ffffff; /* #e0e0e0 */
     width: 50px;
     height: 50px;
     border-radius: 3em;
@@ -182,7 +183,7 @@ ul {
 }
 
 .deal-btn:hover {
-	background-color: #3ae7d6;
+	background-color: #00a708;
 	color: #ffffff;
 	margin: 0.9em;
     padding: 2em;
@@ -211,10 +212,21 @@ ul {
     0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
+.card-2-text{
+        /* position: absolute; */
+        /* top: 50%;
+        left: 50%; */
+        /* transform: translate(-50%, -50%); */
+        /* color: #00a708; */
+        font-size: 150px;
+        
+
+}
 .card-2-back {
 	width: 325px;
 	height: 600px;
     margin: 10px;
+    text-align: center;
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -224,6 +236,12 @@ ul {
     0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
+.card-2-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .card-title {
 	display: flex;

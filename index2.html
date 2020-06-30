@@ -12,17 +12,17 @@
 		<div class="nav-bar-container">
 			<ul>
 				<div class="high-score">HIGH SCORE</div>
-				<button class="game-btn">W A R</button>
-				<div><button id="username" onclick="getUsername()" class="username">USERNAME</button></div>
+				<div class="game-btn">W A R</div>
+				<div><button id="username" onclick="getUsername()" class="username">Enter Username To Start</button></div>
 			</ul>
 		</div>
 
 		<!-- SCORE BOARD -->
 		<!------------------------------------------->
         <div class="score-board">
-            <div class="player-1-score"><p id='player-1-score'class='score'>0</p><p class='score'>PLAYER POINTS</p></div>
-            <div class="score-spacer"><button id='reset-button' class='score-spacer' onclick="">NEW GAME</button></p></div>
-            <div class="player-2-score"><p id='p1-socre' class='score'>0</p><p class='score'>HOUSE POINTS</p></div>            
+            <div class="player-1-score"><p id='player-1-score' class='score'>0</p><p class='score'>PLAYER POINTS</p></div>
+            <div class="score-spacer"><button id='newGame-button' class='new-game' onclick="">NEW GAME</button></p></div>
+            <div class="player-2-score"><p id='house-score' class='score'>0</p><p class='score'>HOUSE POINTS</p></div>            
         </div>
 
 
@@ -39,14 +39,22 @@
 
         <div class="game-zone">
 
-            <div id='player1Card'><img class="card-1-face" src="war_face.jpg" alt="" srcset=""></div>
+            <div id='player1Card'>
+				<img class="card-1-face" src="war_face.jpg" alt="" srcset="">
+			</div>
             <!-- <div id='player1Card'><img class="card-1-back" src="2.png" alt="" srcset=""></div> -->
-            <div><button  id='deal-btn2' onclick="dealCards()" class='deal-btn'>DEAL</button></div>
-            <div id='houseCard'><img class="card-2-face" src="war_face.jpg" alt="" srcset=""></div>
+            <div>
+				<button  id='deal-btn2' class='deal-btn'><p>DEAL</p></button>
+			</div>
+			
+			<div id='houseCard'>
+				<img class="card-2-face" src="spades.png" alt="" srcset="">
+				<div class="card-2-text"></div>
+			</div>
             <!-- <div id='houseCard'><img class="card-2-back" src="4.png" alt="" srcset=""></div> -->
 			
         </div>
-
+		
 		<!-- FOOTER -->
 		<!------------------------------------------->
 		<div class="footer">

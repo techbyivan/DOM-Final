@@ -1,3 +1,4 @@
+// start game & retrieve username
 getUsername = () => {
     let txt;
     let player = prompt("Please enter your name:")
@@ -8,6 +9,33 @@ getUsername = () => {
     }
     document.getElementById('username').innerHTML = txt
 }
+
+// let dealbtn23 = document.querySelector('#deal-btn2 p')
+// dealbtn23.addEventListener('click', function (e) {
+//     console.log(e.target)
+//     console.log(e)
+// });
+
+
+
+//function to fill an array with 52 numbers
+// fillArray = () => {
+// 	var deck = [];
+// 	for (var i = 0; i < 52; i++)
+// 		deck[i] = 
+// 	shuffle(deck);
+//     splitCards(deck)
+// }
+
+//function to shuffle deck of cards. 
+// shuffle = (deck) => {
+//     for(var j, x, i = deck.length; i; j = Math.floor(Math.random() * i), x = deck[--i], deck[i] = deck[j], deck[j] = x);
+//     return deck;
+// }
+
+// //function to split shuffled deck in half
+// splitCards = (deck) => {
+// 	var i = 0;
 
 // dealCards = () => {
 //     document.getElementById('player1Card').innerHTML = Math.floor(Math.random() * 11);
@@ -22,7 +50,7 @@ getUsername = () => {
 // }
 // console.log(dealCards())
 
-// var card = document.querySelector('.card');
+// let card = document.querySelector('.card-1-face');
 // card.addEventListener( 'click', function() {
 //   card.classList.toggle('is-flipped');
 // });
