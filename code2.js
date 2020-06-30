@@ -17,8 +17,13 @@ dealbtn23.addEventListener('click', function (e) {
     console.log(e)
 });
 
-let warArray = [], playerHand = [], compHand = [];
-let playDeck = '', computerDeck = '', playerCard = '', compCard = '';
+let warArray = [];
+let playerHand = [];
+let compHand = [];
+let playDeck = '';
+let computerDeck = '';
+let playerCard = '';
+let compCard = '';
 
 let playing = false;
 
